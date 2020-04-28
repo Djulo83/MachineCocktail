@@ -1,3 +1,3 @@
-# MachineCocktail
+# Partie web du projet. 
 
-Page web qui permet de commander des cocktails à notre machine
+Elle comprends le front-end et le back-end.
