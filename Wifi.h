@@ -1,0 +1,4 @@
+
+void initWifi();
+
+String getPayload();
