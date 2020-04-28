@@ -1,0 +1,10 @@
+@import 'valide.css';
+
+.backgroundColor {
+	background-color: #FFA07A
+}
+
+#animation-valide {
+	display: none;
+	position:absolute; right:3%; bottom:1%;
+}

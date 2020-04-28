@@ -1,2 +1,3 @@
-Partie web du projet. 
-Elle comprends le front-end et le back-end.
+# MachineCocktail
+
+Page web qui permet de commander des cocktails à notre machine

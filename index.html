@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cocktail</title>
+	<!-- CSS -->
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/style.css">
+	
+	
+</head>
+
+<body>
+	<!-- En-tete -->
+	<nav class="navbar navbar-expand navbar-light bg-light" style="height: 5rem;">
+  <a class="navbar-brand" href="index.html" style="font-size: 3rem;">Home</a>
+  <div class="collapse navbar-collapse" id="navbarColor03">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="profil.html" style="font-size: 2rem;">Profil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="font-size: 2rem;">Classement</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+	<!-- Fin en-tete -->
+
+
+<div class="jumbotron" style="height: 21rem;">
+  <h1 class="display-4" style="font-size: 4rem;">Bienvenue sur la page d'acceuil </h1>
+  <p class="lead" style="font-size: 2rem;"> Choisissez votre cocktail</p>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="card col-md-12" style="width: 18rem; margin-bottom: 5rem;">
+			<img class="card-img-top" src="./img/Bloco.png" alt="Card image cap">
+		  <div class="card-body">
+		    <h5 class="card-title">Bloco</h5>
+		    <h6 class="card-subtitle mb-2 text-muted">Vodka/Soho/Jus de pommes</h6>
+		    <p class="card-text">La boisson traditionnelle du bloc.</p>
+	    	<button type="button" class="btn btn-primary btn-fabriquer" data-toggle="modal" data-target="#exampleModal" value="Bloco">
+			  Fabriquer
+			</button>
+		  </div>
+		</div>
+		<div class="card col-md-12" style="width: 18rem;">
+			<img class="card-img-top" src="./img/RhumMultifruits.png" alt="Card image cap">
+		  <div class="card-body">
+		    <h5 class="card-title">Rhum Multifruits</h5>
+		    <h6 class="card-subtitle mb-2 text-muted">Rhum/Jus multifruits</h6>
+		    <p class="card-text">On se croirait presque aux antilles.</p>
+		    <button type="button" class="btn btn-primary btn-fabriquer" data-toggle="modal" data-target="#exampleModal" value="RhumMultifruits">
+			  Fabriquer
+			</button>
+		  </div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Êtes-vous sûr ?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Êtes-vous sûr de vouloir fabriquer ce cocktail ?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Non</button>
+        <button type="button" class="btn btn-primary btn-fabriquer-ok" data-dismiss="modal">Oui</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--
+	<form action="test.php" method="post">
+		<p>Test</p>
+		<input type="text" name="test">
+		<p>Cocktail</p>
+		<input type="text" name="cocktail">
+		<p><input type="submit" value="Submit"></p>
+	</form>
+-->
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+<footer>
+	<div id="animation-valide" class="animated bounceOutLeft" style="display: none;">
+		<div class="swal2-icon swal2-success swal2-animate-success-icon" style="display: flex;">
+		 	<div class="swal2-success-circular-line-left" style="background-color: rgb(255, 255, 255);"></div>
+		  	<span class="swal2-success-line-tip"></span>
+		  	<span class="swal2-success-line-long"></span>
+			<div class="swal2-success-ring"></div> 
+	   		<div class="swal2-success-fix" style="background-color: rgb(255, 255, 255);"></div>
+			<div class="swal2-success-circular-line-right" style="background-color: rgb(255, 255, 255);"></div>
+	  	</div>
+	</div>
+</footer>
+</html>
